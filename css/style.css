@@ -90,7 +90,7 @@ main .section h2 {
 }
 
 .section span {
-  font-size: 1.4em;
+  font-size: 1.5em;
   line-height: 3em;
 }
 
@@ -99,6 +99,15 @@ main .section h2 {
   color: green; 
   border-radius: 50%;
   padding: 3px;
+  margin-right: 8px;
+}
+
+.section .ballot-circle {
+  border: 2px solid red;
+  color: red; 
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 8px;
 }
 
 main .element .categories {
@@ -106,11 +115,7 @@ main .element .categories {
   font-weight: bold;
   padding: 5px;
   border-radius: calc(3em /3);
-  font-size: 1em;
-}
-
-main .element .text::before {
-  content: '\0020';
+  font-size: 0.9em;
 }
 
 .editorial {
