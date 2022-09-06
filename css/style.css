@@ -9,6 +9,20 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  /* background-color: #F6F8F9; */
+  background-color: blue;
+  font-size: 14px;
+}
+
+header, nav, main {
+  background-color: #ffffff;
+}
+
+.container {
+  width: 70%;
+  min-width: 500px;
+  margin: 0 auto;
+  padding-left: 40px;
 }
 
 /* HEADER */
@@ -16,6 +30,7 @@ body {
 header {
   font-size: 60px;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
 header div {
@@ -30,3 +45,31 @@ header img {
   vertical-align: middle;
 }
 
+/* NAV */
+
+nav {
+  border-radius: 10px 10px 0 0;
+  padding: 15px 0;
+  margin: 5px;
+}
+
+nav button {
+  padding: 8px 15px;
+  font-size: 1.4em;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.task-button {
+  color: #ffffff;
+  background-color: #47ADF1;
+  border:1px solid #47ADF1;
+}
+
+.section-button {
+  color: lightgrey;
+  border: 1px solid lightgray;
+}
