@@ -9,8 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /* background-color: #F6F8F9; */
-  background-color: blue;
+  background-color: #F6F8F9;
   font-size: 14px;
 }
 
@@ -22,7 +21,7 @@ header, nav, main {
   width: 70%;
   min-width: 500px;
   margin: 0 auto;
-  padding-left: 40px;
+  padding: 15px 40px;
 }
 
 /* HEADER */
@@ -35,7 +34,7 @@ header {
 
 header div {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
   padding: 20px 30px;
 }
@@ -47,10 +46,9 @@ header img {
 
 /* NAV */
 
-nav {
+.nav-container {
   border-radius: 10px 10px 0 0;
-  padding: 15px 0;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 
 nav button {
@@ -66,10 +64,75 @@ nav button {
 .task-button {
   color: #ffffff;
   background-color: #47ADF1;
-  border:1px solid #47ADF1;
 }
 
 .section-button {
   color: lightgrey;
   border: 1px solid lightgray;
+}
+
+/* MAIN */
+
+.main-container {
+  border-radius: 0 0 10px 10px;
+}
+
+main .section {
+  padding: 30px 0;
+}
+
+main .section h2 {
+  font-size: 2em;
+}
+
+.section h2::before {
+  content: '\25BE''\0020';
+}
+
+.section span {
+  font-size: 1.4em;
+  line-height: 3em;
+}
+
+.section .check-circle {
+  border: 2px solid green;
+  color: green; 
+  border-radius: 50%;
+  padding: 3px;
+}
+
+main .element .categories {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: calc(3em /3);
+  font-size: 1em;
+}
+
+main .element .text::before {
+  content: '\0020';
+}
+
+.editorial {
+  background-color: #47ADF1;
+}
+
+.q1-goals {
+  background-color: purple;
+}
+
+.recruiting {
+  background-color: green;
+}
+
+.mobile {
+  background-color: orange;
+}
+
+.website {
+  background-color: fuchsia;
+}
+
+.sales {
+  background-color: yellowgreen;
 }
