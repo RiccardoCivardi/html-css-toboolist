@@ -94,20 +94,28 @@ main .section h2 {
   line-height: 3em;
 }
 
-.section .check-circle {
-  border: 2px solid green;
-  color: green; 
+.section .circle {
   border-radius: 50%;
   padding: 3px;
   margin-right: 8px;
 }
 
+.section .check-circle {
+  border: 2px solid green;
+  color: green; 
+}
+
 .section .ballot-circle {
   border: 2px solid red;
   color: red; 
-  border-radius: 50%;
-  padding: 3px;
-  margin-right: 8px;
+}
+
+.section .check-circle::after {
+  content: '\2713';
+}
+
+.section .ballot-circle::after {
+  content: '\2717';
 }
 
 main .element .categories {
