@@ -4,3 +4,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* GENERAL */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+header div {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+header img {
+  width: 75px;
+  vertical-align: middle;
+}
+
