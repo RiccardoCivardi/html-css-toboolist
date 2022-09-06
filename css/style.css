@@ -91,13 +91,18 @@ main .section h2 {
 
 .section span {
   font-size: 1.5em;
-  line-height: 3em;
+  margin: 15px 0;
 }
 
 .section .circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   border-radius: 50%;
-  padding: 3px;
   margin-right: 8px;
+  text-align: center;
+  
 }
 
 .section .check-circle {
@@ -121,8 +126,8 @@ main .section h2 {
 main .element .categories {
   color: #ffffff;
   font-weight: bold;
-  padding: 5px;
-  border-radius: calc(3em /3);
+  padding: 8px;
+  border-radius: 15px;
   font-size: 0.9em;
 }
 
