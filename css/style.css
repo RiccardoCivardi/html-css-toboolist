@@ -20,7 +20,7 @@ header, nav, main {
 .container {
   width: 70%;
   min-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 5px auto;
   padding: 15px 40px;
 }
 
@@ -48,7 +48,6 @@ header img {
 
 .nav-container {
   border-radius: 10px 10px 0 0;
-  margin-bottom: 5px;
 }
 
 nav button {
@@ -75,6 +74,7 @@ nav button {
 
 .main-container {
   border-radius: 0 0 10px 10px;
+
 }
 
 main .section {
@@ -129,6 +129,10 @@ main .element .categories {
   padding: 8px;
   border-radius: 15px;
   font-size: 0.9em;
+}
+
+.element {
+  list-style-type: none;
 }
 
 .editorial {
