@@ -24,110 +24,115 @@
   <header>
     
     <div>
-      <img src="img/Logo.png" alt="Logo">
-      <span>Toboolist</span>
+      <img id="logo" src="img/Logo.png" alt="Logo">
+      <span id="logo-text">Toboolist</span>
     </div>
 
   </header>
   <!-- /HEADER -->
 
-  <!-- NAV -->
-  <nav class="container nav-container">
-
-    <button class="task-button">Add Task</button>
-    <button class="section-button">Add Section</button>
-   
-  </nav>
-  <!-- /NAV -->
-  
   <!-- MAIN -->
-  <main class="container main-container">
+  <main class="container">
+
+    <div class="top">
+
+      <button class="btn btn-filled">Add Task</button>
+      <button class="btn btn-empty">Add Section</button>
+     
+    </div>
     
-    <section class="section">
+    <div class="task">
 
-      <h2>New Task</h2>
-      
-      <ol class="element">
-        
+      <ul>
+
         <li>
-          <span class="circle check-circle"></span>
-          <span>Quarterly Newsletter</span>
-          <span class="categories editorial ">Editorial</span>
-        </li>
+          
+          <h3>New Task</h3>
+          
+          <ul>
 
-      </ol>
-    
-    </section>
+            <li>
+              <span class="circle checked"></span>
+              Quarterly Newsletter
+              <span class="tag editorial ">Editorial</span>
+            </li>
 
-    <section class="section">
+          </ul>
 
-      <h2>Today</h2>
-      
-      <ol class="element">
-        
-        <li>
-          <span class="circle check-circle"></span>
-          <span>Recruiting blog post</span>
-          <span class="categories editorial ">Editorial</span>
         </li>
 
         <li>
-          <span class="circle check-circle"></span>
-          <span>Mobile app launch</span>
-          <span class="categories q1-goals">Q1 Goals</span>
+
+          <h3>Today</h3>
+
+          <ul>
+
+            <li>
+              <span class="circle checked"></span>
+              Recruiting blog post
+              <span class="tag editorial ">Editorial</span>
+            </li>
+
+            <li>
+              <span class="circle checked"></span>
+              Mobile app launch
+              <span class="tag q1-goals">Q1 Goals</span>
+            </li>
+
+            <li>
+              <span class="circle unchecked"></span>
+              Interview John H.
+              <span class="tag recruiting">Recruiting</span>
+            </li>
+
+            <li>
+              <span class="circle checked"></span>
+              Summit update to mobile storefronts
+              <span class="tag mobile">Mobile</span>
+            </li>
+
+          </ul>
+
         </li>
 
         <li>
-          <span class="circle ballot-circle"></span>
-          <span>Interview John H.</span>
-          <span class="categories recruiting">Recruiting</span>
+
+          <h3>Today</h3>
+
+          <ul>
+
+            <li>
+              <span class="circle unchecked"></span>
+              Schedule meeting with Alex
+            </li>
+
+            <li>
+              <span class="circle checked"></span>
+              Homepage refresh
+              <span class="tag website">Website</span>
+            </li>
+
+            <li>
+              <span class="circle unchecked"></span>
+              Onboard new Sales team members
+              <span class="tag sales">Sales</span>
+            </li>
+
+            <li>
+              <span class="circle checked"></span>
+              Review editorial calendarEditoria
+              <span class="tag editorial">Editorial</span>
+            </li>
+
+          </ul>
+          
         </li>
 
-        <li>
-          <span class="circle check-circle"></span>
-          <span>Summit update to mobile storefronts</span>
-          <span class="categories mobile">Mobile</span>
-        </li>
+      </ul>
 
-      </ol>
-    
-    </section>
-
-    <section class="section">
-
-      <h2>Upcoming</h2>
-      
-      <ol class="element">
-        
-        <li>
-          <span class="circle ballot-circle"></span>
-          <span>Schedule meeting with Alex</span>
-        </li>
-
-        <li>
-          <span class="circle check-circle"></span>
-          <span>Homepage refresh</span>
-          <span class="categories website">Website</span>
-        </li>
-
-        <li>
-          <span class="circle check-circle"></span>
-          <span>Onboard new Sales team members</span>
-          <span class="categories sales">Sales</span>
-        </li>
-
-        <li>
-          <span class="circle check-circle"></span>
-          <span>Review editorial calendarEditoria</span>
-          <span class="categories editorial">Editorial</span>
-        </li>
-
-      </ol>
-    
-    </section>
+    </div>
 
   </main>
-  <!-- /MAIN -->
 
 </body>
 </html>
