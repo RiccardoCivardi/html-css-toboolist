@@ -63,6 +63,7 @@ nav button {
 .task-button {
   color: #ffffff;
   background-color: #47ADF1;
+  border: 1px solid #47ADF1;
 }
 
 .section-button {
